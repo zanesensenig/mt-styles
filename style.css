@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
 /* ------------------------ */
 /* eLDIG Style Guide */
 /* ------------------------ */
 /* Effective October 2018   */
 /* ------------------------ */
-
-@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
- body #wizard, body #test {
+ 
+body #wizard, body #test {
 	font-family: 'Open Sans', sans-serif !important;
 }
 #wizard h1, #wizard h2, #wizard h3, #wizard h4, #wizard h5, #wizard h6 {
