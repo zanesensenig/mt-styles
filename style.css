@@ -1,0 +1,671 @@
+/* ------------------------ */
+/* eLDIG Style Guide */
+/* ------------------------ */
+/* Effective October 2018   */
+/* ------------------------ */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+ body #wizard, body #test {
+	font-family: 'Open Sans', sans-serif !important;
+}
+#wizard h1, #wizard h2, #wizard h3, #wizard h4, #wizard h5, #wizard h6 {
+	font-family: 'Lato', sans-serif !important;
+	margin-bottom: 1.1rem;
+	line-height: 1.25;
+	font-weight: bold;
+}
+#test h1, #test h2, #test h3, #test h4, #test h5, #test h6 {
+	font-family: 'Lato', sans-serif !important;
+	margin-bottom: 1.1rem;
+	line-height: 1.25;
+	font-weight: bold;
+}
+#wizard h1, #test h1 {
+	font-size: 2.5rem;
+}
+#wizard h2, #test h2 {
+	font-size: 2rem;
+}
+#wizard h3, #test h3 {
+	font-size: 1.35rem;
+}
+#wizard h4, #test h4 {
+	font-size: 1.15rem;
+}
+#wizard p, #test p {
+	line-height: 1.5;
+	font-size: 1.15rem;
+	margin-bottom: 1.5rem;
+}
+#wizard td, #test td {
+	line-height: 1.5;
+	font-size: 1.15rem;
+}
+#wizard a, #test a {
+	text-decoration: none;
+	color: #2553B8;
+}
+#wizard div.to-do, #test div.to-do {
+    padding-left: 16px;
+    padding: 0;
+}
+/* ZANE COMMENT 13 */
+#wizard a:hover, #wizard a:focus {
+	color: #4A90E2;
+}
+#test a:hover, #test a:focus {
+	color: #4A90E2;
+}
+#wizard ul, #wizard ol {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.15rem;
+	line-height: 1.25;
+}
+#test ul, #test ol {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.15rem;
+	line-height: 1.25;
+}
+#wizard li, #test li {
+	margin-bottom: 0.75rem;
+}
+@media (max-width: 600px) {
+	#wizard h1, #test h1 {
+		font-size: 2rem;
+	}
+	#wizard h2, #test h2 {
+		font-size: 1.5rem;
+	}
+	#wizard h3, #test h3 {
+		font-size: 1.25rem;
+	}
+	#wizard h4, #test h4 {
+		font-size: 1.15rem;
+	}
+}
+@media (min-width: 601px) {
+	#wizard h1, #test h1 {
+		font-size: 2.5rem;
+	}
+	#wizard h2, #test h2 {
+		font-size: 2rem;
+	}
+	#wizard h3, #test h3 {
+		font-size: 1.35rem;
+	}
+	#wizard h4, #test h4 {
+		font-size: 1.15rem;
+	}
+}
+@media (min-width: 1025px) {
+	#wizard h1, #test h1 {
+		font-size: 2.75rem;
+	}
+	#wizard h2, #test h2 {
+		font-size: 2.33rem;
+	}
+	#wizard h3, #test h3 {
+		font-size: 1.85rem;
+	}
+	#wizard h4, #test h4 {
+		font-size: 1.33rem;
+	}
+} 
+
+/* ------------------------ */
+/* ONE-OFFS */
+/* ------------------------ */
+/* Anything that would      */
+/* overwrite style guide    */
+/* ------------------------ */
+
+section.accordion{
+    max-width: 1100px;
+    width: 100%;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+span.section-title {
+    background: #4194D8;
+    display: block;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    cursor: pointer;
+    margin: 0;
+    padding: 1rem 1.5rem;
+}
+section.accordion h3 {
+    margin-bottom: 0 !important;
+    font-size: 1.5rem !important;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+    
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+ .img-citation {
+     font-size: 1em;
+     color: #888;
+ }
+
+ 
+/* ***************QUOTE BOXES*************** */
+.quote-1,
+.quote-2,
+.quote-3,
+.quote-4,
+.quote-5,
+.quote-6,
+.quote-7,
+.quote-8
+{
+width: 92%; 
+margin-bottom: 1rem;
+border-radius: 6px; 
+padding: 5px 1rem 0 1rem; 
+-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175)
+}
+
+    .quote-1 { 
+    border: 1px solid #999999;  
+    background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-grey.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-position: 20px 10px; 
+
+    }
+    .quote-2 { 
+    border: 1px solid #f0ad4e;
+    background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-orange.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-position: 20px 10px; 
+    }
+    .quote-3 { 
+    border: 1px solid  #d9534f; 
+        background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-red.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-position: 20px 10px; 
+    }
+
+    .quote-4 { 
+    border: 1px solid #5bc0de; 
+        background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-blue.png);
+        background-repeat: no-repeat;
+        background-position: 20px 10px; 
+    }
+
+    .quote-5 { 
+    border: 1px solid #3f903f;
+        background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-green.png);
+        background-repeat: no-repeat;
+        background-position: 20px 10px; 
+    }
+
+    .quote-6 { 
+    border: 1px solid #560a91;
+        background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-purple.png);
+        background-repeat: no-repeat;
+        background-position: 20px 10px; 
+    }
+
+    .quote-7 { 
+    border: 1px solid #1e407c;
+        background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-psublue.png);
+        background-repeat: no-repeat;
+        background-position: 20px 10px; 
+    }
+
+    .quote-8 { 
+    border: 1px solid #404040;
+        background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-dkgrey.png);
+        background-repeat: no-repeat;
+        background-position: 20px 10px; 
+    }
+
+    .quote-1 p,
+    .quote-2 p,
+    .quote-3 p,
+    .quote-4 p,
+    .quote-5 p,
+    .quote-6 p,
+    .quote-7 p,
+    .quote-8 p { 
+    margin-left: 60px; 
+    padding-right: 20px; 
+    padding-top: 1rem;
+    clear: both;
+    font-style: italic
+    }
+
+/* ***************TO DO TABLE*************** */
+.to-do { 
+    width: 92%; 
+    border: 1px solid #1e407c; 
+    border-radius: 6px; 
+    padding: 1rem; 
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    background-image: url(https://courses.smeal.psu.edu/eldig101/Module_2/star.png);
+    background-repeat: no-repeat;
+    background-position: 28px 38px; 
+    margin-top: 1rem;
+} 
+        
+    .to-do h2 {
+        color: #1e407c; 
+        font-size: 1.3rem;
+    } 
+
+    .to-do h3 {
+        color: #1e407c; 
+        font-size: 1.2rem;
+        }
+        
+    #wizard .to-do td {
+        font-size: 1.15rem;
+    }
+
+    .to-do td { 
+    padding: 1em; 
+    vertical-align: top; 
+    border-top: 1px solid #1e407c;
+    }
+
+    .to-do td:nth-child(1) {
+    text-align: center;
+    color: #1e407c;
+    }
+
+    .to-do tr:first-of-type td {
+    border: 0;
+    }
+
+/* ***************EXPLORE*************** */
+.explore-outer {
+    background-color: #EFF3F6; 
+    border: 1px solid #c3c4c5; 
+    border-radius: 6px; 
+    width: 214px; 
+    float: right; 
+    margin: 1rem 0 1rem 2rem; 
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  }
+  
+  .explore-inner {
+    background-color: #008ee2; 
+    border-radius: 6px; 
+    height: 40px;
+    width: 101%;
+    margin-left: -1px
+  }
+  
+  .explore-inner h2 {
+    color: #ffffff; 
+    line-height: 40px;
+    padding-left: 46px;
+  }
+  
+  .explore-inner img {
+    float: left; 
+    padding: 8px 4px 4px 12px;
+    width: 24px; 
+    height: 24px;
+  }
+  
+  .explore-outer p { 
+    text-align: left; 
+    padding: 10px 0 0 18px;
+  }
+  
+  .explore-outer li { 
+    text-align: left; 
+    margin-left: -6px;
+  }
+
+/* ***************SELF CHECK*************** */
+.self-check-outer {
+    width: 92%; 
+    background-color: #EFF3F6; 
+    border-radius: 6px; 
+    margin: 1rem 0 2rem 0; 
+    padding: 1rem;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);  
+  }
+  
+  
+  
+  .self-check-choice {
+    border: 1px solid #bbbbbb;
+    background-color: #fff; 
+    border-radius: 6px; 
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    cursor: pointer;
+    padding: 10px 14px; 
+    margin: 8px; 
+    display: inline-block;
+    min-width: 5rem;
+  }
+  
+  .self-check-choice:hover {
+    background-color: #f5f5f5;}
+  
+  .self-check-choice:active {
+    background-color: #bbbbbb;}
+  
+    
+  
+/* ***************SOLD ELEMENTS*************** */
+/* ***************SOLD ELEMENTS*************** */
+.id-tip {
+    background-color:  #465d5d; 
+    font-weight: 200;
+    border-radius: 10px; 
+    margin: 1rem 0; 
+    padding: 1rem; 
+    width: 92%; 
+    overflow: hidden; 
+    color: #ffffff;
+    background-image: url(https://courses.smeal.psu.edu/eldig101/Module_3/bulb.png);
+    background-repeat: no-repeat;
+    background-position: 20px 18px; 
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    }
+
+    .id-tip h2 {
+            color: #ffffff;
+            font-weight: 200;
+            font-size: 1.7em;
+            text-transform: uppercase;
+            padding: 20px 0 20px 80px;
+        }
+    .id-tip a {
+        color: #f5f5f5; 
+        text-decoration: underline;
+        }
+
+.deeper-dive {
+    background-color: #414c60; 
+    font-weight: 200;
+    border-radius: 10px; 
+    margin: 1rem 0; 
+    padding: 1rem; 
+    width: 92%; 
+    overflow: hidden; 
+    color: #ffffff;
+    background-image: url(https://courses.smeal.psu.edu/eldig101/Module_3/diver.png);
+    background-repeat: no-repeat;
+    background-position: 20px 18px; 
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    }
+            
+    .deeper-dive h2 {
+            color: #ffffff;
+            font-weight: 200;
+            font-size: 1.7em;
+            text-transform: uppercase;
+            padding: 20px 0 0 80px;
+    }
+    
+    .deeper-dive a {
+    color: #f5f5f5; 
+    text-decoration: underline;
+    }
+
+.sold-activity { 
+        width: 92%; 
+        border: 1px solid #605a4b; 
+        border-radius: 6px; 
+        padding: 1rem; 
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    } 
+        
+    .sold-activity h2 {
+            color: #605a4b; 
+            font-weight: 300; 
+            text-transform: uppercase; 
+            font-size: 1.3em;
+        } 
+        
+    .sold-activity h3 {
+            color: #605a4b; 
+            font-weight: 300; 
+            font-size: 1.1em;
+        }
+
+    .sold-activity td { 
+        padding: 1em; 
+        vertical-align: top; 
+        border-top: 1px solid #605a4b;
+}
+
+    .sold-activity td:nth-child(1) {
+        text-align: center;
+        color: #605a4b;
+}
+
+    .sold-activity tr:first-of-type td {
+        border: 0;
+}
+
+.sold-to-do { 
+        width: 92%; 
+        border: 1px solid #465d5d; 
+        border-radius: 6px; 
+        padding: 1em; 
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    } 
+        
+    .sold-to-do h2 {
+            color: #465d5d; 
+            font-weight: 300; 
+            text-transform: uppercase; 
+            font-size: 1.3em;
+        } 
+        
+    .sold-to-do h3 {
+            color: #1e407c; 
+            font-weight: 300; 
+            font-size: 1.1em;
+        }
+
+    .sold-to-do td { 
+        padding: 1em; 
+        vertical-align: top; 
+        border-top: 1px solid #465d5d;
+}
+
+    .sold-to-do td:nth-child(1) {
+        text-align: center;
+        color: #465d5d;
+}
+
+    .sold-to-do tr:first-of-type td {
+        border: 0;
+}
+
+.sold-quote-1,
+.sold-quote-2,
+.sold-quote-3,
+.sold-quote-4,
+.sold-quote-5,
+.sold-quote-6,
+.sold-quote-7,
+.sold-quote-8
+{
+    width: 92%; 
+    margin-bottom: 1rem;
+    border-radius: 6px; 
+    padding: 5px 1rem; 
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    background-repeat: no-repeat;
+    background-position: 20px 10px; 
+}
+    
+.sold-quote-1 {
+    border: 1px solid #465d5d;
+    background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-1.png);
+} 
+
+.sold-quote-2 {
+    border: 1px solid #605a4b;
+    background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-2.png);
+} 
+
+.sold-quote-3 {
+    border: 1px solid #414c60;
+    background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-3.png);
+} 
+
+.sold-quote-4 { 
+    border: 1px solid #565d44;
+    background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-4.png);
+} 
+
+.sold-quote-5 { 
+    border: 1px solid #51555b;
+    background-image: url(https://courses.smeal.psu.edu/Course-Resources/eLDIG-Resources/quote-5.png);
+} 
+
+    .sold-quote-1 p,
+    .sold-quote-2 p,
+    .sold-quote-3 p,
+    .sold-quote-4 p,
+    .sold-quote-5 p,
+    .sold-quote-6 p,
+    .sold-quote-7 p,
+    .sold-quote-8 p { 
+    margin-left: 60px; 
+    padding-right: 20px; 
+    padding-top: 10px;
+    clear: both;
+    font-style: italic
+    }
+
+.sold-box-1 {
+    border: 1px solid #465d5d; 
+}
+.sold-box-2 {
+    border: 1px solid #605a4b; 
+}
+.sold-box-3 {
+    border: 1px solid #414c60; 
+}
+.sold-box-4 {
+    border: 1px solid #565d44; 
+}
+.sold-box-5 {
+    border: 1px solid #51555b; 
+}
+.sold-box-6 {
+    border: 1px solid #465d5d; 
+}
+
+    .sold-box-1,
+    .sold-box-2,
+    .sold-box-3,
+    .sold-box-4,
+    .sold-box-5,
+    .sold-box-6 {
+        width: 92%;
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+        border-radius: 6px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .sold-box-1 p,
+    .sold-box-2 p,
+    .sold-box-3 p,
+    .sold-box-4 p,
+    .sold-box-5 p,
+    .sold-box-6 p,
+    .sold-box-1 ul,
+    .sold-box-2 ul,
+    .sold-box-3 ul,
+    .sold-box-4 ul,
+    .sold-box-5 ul,
+    .sold-box-6 ul {
+        padding-left: 1rem;
+    }
+
+.eldig-box-1 {border: 1px solid #EE744E}
+.eldig-box-2 {border: 1px solid #228782}
+.eldig-box-3 {border: 1px solid #D02941}
+.eldig-box-4 {border: 1px solid #235477}
+
+    .eldig-box-1,
+    .eldig-box-2,
+    .eldig-box-3,
+    .eldig-box-4 {
+        width: 92%;
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); 
+        border-radius: 6px;
+        padding: 6px;
+        margin-bottom: 1rem;
+    }
+/* ***************END SOLD ELEMENTS*************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
